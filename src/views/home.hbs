@@ -7,13 +7,13 @@
 <div class="row">
 <div class="col-md-4">
 Capital
-<input type="number" class="form-control" name="capital"  placeholder="Capital" value="{{capital}}">
+<input type="number" class="form-control" required name="capital"  placeholder="Capital" value="{{capital}}">
 </div>    <div class="col-md-4">
 Tasa de interes
-<input type="number" class="form-control" name="tasa" placeholder="Tasa de interes" value="{{tasa}}">
+<input type="number" class="form-control" required name="tasa" placeholder="Tasa de interes" value="{{tasa}}">
 </div>    <div class="col-md-4">
 Cantidad de años
-<input type="number" class="form-control" name="cant" placeholder="Cant de años" value="{{cant}}">
+<input type="number" class="form-control" required name="cant" placeholder="Cant de años" value="{{cant}}">
 </div>
 </div>
 <br>
@@ -29,8 +29,8 @@ Cantidad de años
    Calculo de interes <br>
       capital {{capital}} <br>
       tasa {{tasa}}<br>
-      cantidad {{cant}}<br>
-      calculo interes {{calculotasa}} %
+      cantidad años {{cant}}<br>
+      calculo intereses = {{calculotasa}}
 </p>
  {{/if}}
 

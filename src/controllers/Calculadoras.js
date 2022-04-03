@@ -12,7 +12,7 @@ class Calculadoras {
     let capital = datos[0]
     let tasa = datos[1]
     let years = datos[2]
-    let calculofinal = (capital * (tasa / 100) * years).toFixed(3)
+    let calculofinal = (capital * (tasa / 100) * years).toFixed(0)
 
 console.log(years, capital, tasa)
 
